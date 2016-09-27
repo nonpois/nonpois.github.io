@@ -1,0 +1,198 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  
+}
+
+ul.nav {
+
+font-family: 'Arvo', courier, serif;
+font-size: 14px;
+}
+
+footer{
+
+	padding-top: 120px;
+padding-bottom: 20px;
+background-color: #D6D3FB;;
+
+}
+
+#get-involved {
+
+	background-color: #E9E8F8;
+
+
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('place6.jpg');
+	  background-size: 2000px 620px;
+	  	
+}
+
+
+
+.btn {
+
+	font-size: 28px;
+}
+
+.jumbotron p {
+	color: black;
+opacity: 0.8;
+font-size: 18px;
+font-weight: 100;
+	padding: 0 50px;
+	margin-bottom: 40px;
+}
+
+.jumbotron h1 {
+
+	color: #7070EF;
+opacity: 0.8;
+	font-family: 'Arvo', courier, serif;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.container {
+	
+	margin-bottom: 0px;
+
+}
+
+.container h2{
+
+	margin-bottom: 0px;
+}
+
+.homepage {
+
+	    padding-top: 50px;
+    padding-bottom: 0px;
+	text-align: center;
+}
+
+.homepage h2 {
+
+font-size: 30px;
+margin-bottom: 0px;
+}
+
+.homepage h3{
+
+font-size: 28px;
+}
+
+.homepage h2,  .homepage h3{
+
+    color:#7070EF;
+    font-family: "Arvo", courier, serif;
+    text-transform: uppercase;
+
+}
+
+.homepage p {
+
+	font-size: 17px;
+font-weight: 300;
+margin-bottom: 20px;
+}
+
+.homepage a{
+
+	color: #8F6F6F;
+	font-size: 20px;
+}
+
+
+.homepage a:hover {
+
+	color: #8F6F6F;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr {
+
+	width: 180px;
+margin-bottom: 28px;
+border-top: 1px solid #0030FF;
+
+}
+
+/*Responsive Styling */
+
+@media (max-width: 1198px) { 
+
+.jumbotron h1 {
+
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+ }
+
+
+ @media (max-width: 991px) { 
+
+.jumbotron h1 {
+
+	font-size: 44px;
+	
+}
+
+.jumbotron p {
+
+	padding: 0 10px;
+	
+}
+
+#get-involved .col-md-4{
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ }
+
+
+  @media (max-width: 767px) { 
+
+.jumbotron h1 {
+
+	font-size: 44px;
+	
+}
+
+.jumbotron p {
+
+	font-size: 15px;
+	padding: 0px;
+	
+}
+
+.btn-lg{
+
+	font-size: 18px;
+}
+
+.homepage p{
+
+	font-size: 18px;
+}
+
+#get-involved .col-md-4{
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer img {
+
+	width: 80%;
+}
+
+ }
