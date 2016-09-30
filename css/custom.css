@@ -4,6 +4,12 @@ body {
   
 }
 
+a.navbar-brand {
+
+font-family: 'Arvo', courier, serif;
+font-size: 14px;
+}
+
 ul.nav {
 
 font-family: 'Arvo', courier, serif;
@@ -14,15 +20,20 @@ footer{
 
 	padding-top: 120px;
 padding-bottom: 20px;
-background-color: #D6D3FB;;
+background-color: #D6D3FB;
 
 }
 
 #get-involved {
 
 	background-color: #E9E8F8;
+}
 
+#back-to-top{
 
+	position: fixed;
+bottom: 20px;
+right: 20px;
 }
 
 .jumbotron {
