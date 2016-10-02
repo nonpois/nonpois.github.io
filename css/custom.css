@@ -192,6 +192,15 @@ border-top: 1px solid #0030FF;
 
   @media (max-width: 767px) { 
 
+
+.modal-content iframe{
+
+width: 70%;
+
+
+}
+
+
 .jumbotron h1 {
 
 	font-size: 44px;
@@ -220,6 +229,8 @@ border-top: 1px solid #0030FF;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+
 
 footer img {
 
